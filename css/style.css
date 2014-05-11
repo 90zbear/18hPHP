@@ -1,0 +1,81 @@
+body{
+	background-color:rgba(255,177,0,.1);
+}
+
+header{
+	background-color:#D9443F;
+	padding:20px;
+	color:#fff;
+}
+
+header#admin{
+	background-color:#57989A;
+}
+
+h1{
+	font-size:280%;
+	font-family: 'Lobster', cursive;
+}
+
+h1 a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.box{
+	width:100%;
+	max-width:980px;
+	margin:0 auto;
+}
+
+.box ul{
+	padding:20px;
+}
+
+.box ul li{
+	margin:15px 0;
+	background-color:rgba(255,177,0,.4);
+	padding:15px;
+	border-radius:5px;
+}
+
+h2, h2 a{
+	font-size:130%;
+	padding:10px 0 0 0;
+	font-weight:bold;
+	color:#121F20;
+	text-decoration:none;
+}
+
+.comment{
+	padding:10px;
+	margin:10px;
+	background-color:#fff;
+	border-radius:5px;
+}
+
+.content{
+	padding-top:10px;
+}
+
+.image{
+	width:120px;
+	float:left;
+	margin-right:20px;
+}
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
